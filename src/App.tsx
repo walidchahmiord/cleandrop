@@ -12,6 +12,7 @@ import MusicToggle from "@/components/MusicToggle";
 import Index from "./pages/Index";
 import Products from "./pages/Products";
 import ProductDetail from "./pages/ProductDetail";
+import Cart from "./pages/Cart";
 import Auth from "./pages/Auth";
 import Profile from "./pages/Profile";
 import HowItWorks from "./pages/HowItWorks";
@@ -37,6 +38,7 @@ const App = () => (
                 <Route path="/" element={<Index />} />
                 <Route path="/products" element={<Products />} />
                 <Route path="/products/:id" element={<ProductDetail />} />
+                <Route path="/cart" element={<Cart />} />
                 <Route path="/how-it-works" element={<HowItWorks />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/blog" element={<Blog />} />
